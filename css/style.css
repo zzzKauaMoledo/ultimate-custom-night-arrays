@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mudar{
+    position: relative;
+    width: 5%;
+    height: 3%;
+    transform: scaleX(-1);
+    left: -1%;
+}
+
+#sorteio {
+    display: none;
+    position: absolute;
+    width: 8%;
+    height: 34%;
+    top: 100%;
+    left: 48.5%;
+    z-index: 4;
+    border: 5px solid transparent;
+
+  animation: rainbow 0.5s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+      border-color: #FF0000;
+    }
+    10% {
+      border-color: #FF3300;
+    }
+    20% {
+      border-color: #FF6600;
+    }
+    30% {
+      border-color: #FF9900;
+    }
+    40% {
+      border-color: #FFCC00;
+    }
+    50% {
+      border-color: #FFFF00;
+    }
+    60% {
+      border-color: #00FF00;
+    }
+    70% {
+      border-color: #00FFFF;
+    }
+    80% {
+      border-color: #0066FF;
+    }
+    90% {
+      border-color: #6600FF;
+    }
+    100% {
+      border-color: #FF00FF;
+    }
+  }
+
+  #selec{
+    display: none;
+    width: 10%;
+    height: 24%;
+    position: absolute;
+    top: 67%;
+    left: 47.7%;
+    z-index: 4;
+  }
+
+  
+
+
+
+.mapa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 5%;
+}
+
+#mapas {
+    position: relative;
+    top: 1%;
+}
+
+.area {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+#seta{
+    display: none;
+    position: absolute;
+    top: 78%;
+    left: 58%;
+    z-index: 4;
+
+    
+   border: 5px solid transparent;
+   animation: rainbow 0.5s linear infinite;
+    
+}
+
+#seta2{
+    display: none;
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    z-index: 4;
+
+    
+   border: 5px solid transparent;
+   animation: rainbow 0.5s linear infinite;
+    
+}
+
+#tablet{
+
+    display: none;
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    top: 64%;
+    left: 28%;
+    z-index: 3;
+}
+
+#puxartablet{
+    position: absolute;
+    z-index: 3;
+    top: 92%;
+    left: 50%;
+}
+
+
+
+
+@keyframes rainbow-seta {
+    0% {
+      border-color: #FF0000;
+    }
+    10% {
+      border-color: #FF3300;
+    }
+    20% {
+      border-color: #FF6600;
+    }
+    30% {
+      border-color: #FF9900;
+    }
+    40% {
+      border-color: #FFCC00;
+    }
+    50% {
+      border-color: #FFFF00;
+    }
+    60% {
+      border-color: #00FF00;
+    }
+    70% {
+      border-color: #00FFFF;
+    }
+    80% {
+      border-color: #0066FF;
+    }
+    90% {
+      border-color: #6600FF;
+    }
+    100% {
+      border-color: #FF00FF;
+    }
+  }
+
+
+
+
+
+
+
+
